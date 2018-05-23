@@ -7,6 +7,8 @@ int min(int a, int b, int c) {
     else return c;
 }
 
+// Implementation of the Levenshtein distance algorithm which gives a difference between two
+// strings, which is usefull for fuzzy matching.
 int levenshteinDistance(const char* s1, const char* s2) {
     int len1 = strlen(s1);
     int len2 = strlen(s2);
